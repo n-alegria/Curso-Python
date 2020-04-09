@@ -11,6 +11,7 @@ texto = "Master en Python"
 texto2 = "con Victor Robles"
 numero = 45
 decimal = 6.7
+boolean = True
 
 # Mostrar valor de lsa variables
 print(texto)
@@ -27,18 +28,3 @@ print(numero)
 print(decimal)
 
 print("-------------------------------")
-
-# Concatenacion
-# Unir dos variables (string) -> se utliza el signo + para concatenar dos string
-nombre = "Nestor"
-apellido = "Alegria"
-hobby = "Programador"
-
-print(nombre + " " + apellido + " - " + hobby)
-
-# Con la f"{}" puedo formatear directamente la varaible en el print -> debo utilizar {} y dentro el nombre de las varaibles
-print(f"{nombre} {apellido} - {hobby}")
-
-# Se puede concatenar de otra forma.
-# Se utiliza la funcion ".format()", se debe usar { } donde quiero aplicar una variable y luego en el .format() escribo las variables en el orden de aparicion
-print("Hola me llamo {} {} y mi hobby es {}".format(nombre, apellido, hobby))
