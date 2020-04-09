@@ -12,3 +12,10 @@ from miPaquete import herramientas
 
 pruebas.probando()
 herramientas.nombreCompleto('nestor', 'alegria')
+
+
+# Instalar paquetes exernos
+"""
+    pypi.org -> donde descargar paquetes
+
+"""
