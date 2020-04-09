@@ -13,6 +13,9 @@ print(mi_texto3)
 mi_texto4 = "'Saltamontes'"
 print(mi_texto4)
 
+# Puedo imprimir caracteres individuales de los string con la posicion que deseo imprimir
+print(f"Imprimo el primer caracter de la varaible: {mi_texto[0]}")
+
 """
  \n -> Salto de linea
  \t -> tabulacion
