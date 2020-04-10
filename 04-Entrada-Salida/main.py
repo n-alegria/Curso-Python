@@ -17,6 +17,7 @@ print(type(numero))
 nombre = "Nestor"
 apellido = "Alegria"
 hobby = "Programador"
+precio = 14.234
 
 print(nombre + " " + apellido + " - " + hobby)
 
@@ -28,3 +29,5 @@ print(f"{nombre} {apellido} - {hobby}")
 print("Hola me llamo {} {} y mi hobby es {}".format(nombre, apellido, hobby))
 print("Hola me llamo {variable1} {variable2} y mi hobby es {variable3}".format(variable1=nombre, variable2=apellido, variable3=hobby))
 print("Hola me llamo {0} {1} y mi hobby es {2}".format(nombre, apellido, hobby))
+
+print(f"EL precio es de {precio:.2f}")
