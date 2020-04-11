@@ -9,8 +9,15 @@ print("Se debe igualar la clave con el nuevo valor")
 diccionario['year'] = 1980
 
 print("*** Recorrer un diccionario ***\n")
+# Muestro de acuerdo a la clave, la cual se almacenara en 'x' 
+# y con ella muestro el valor que posee con esa clave en el diccioanrio
 for x in diccionario:
-    print(x)
+    print(f"La clave es: '{x}' y el valor es: '{diccionario[x]}'")
+    print()
+
+# Puedo almacenar clave valor en 2 variables utilizando el metodo '.items()'
+for x,v in diccionario.items():
+    print(f"La clave es: '{x}' y el VALOR es: '{v}'")
     print()
 
 print("*** Comprobar si existe la clave ***\n")
