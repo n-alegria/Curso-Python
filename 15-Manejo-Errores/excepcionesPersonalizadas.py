@@ -14,6 +14,6 @@ try:
         print("Bienvenido {}".format(nombre))
 # Si la excepcion generada anteriormente es del tipo 'ValueError' ingresa acá
 except ValueError:
-    print("Introduce los datos correctamente.") 
+     print("Introduce los datos correctamente.") 
 except Exception as e:
     print("Existe un error", e)
