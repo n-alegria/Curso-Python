@@ -1,0 +1,28 @@
+Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. 
+
+Es una capsula donde guardo informacion, datos, para luego consultarlos de forma mas sencilla.
+Se utiliza un sistema gestor de bases de datos 'SGBD', por ejemplo, MySql, Maria DB, MongoDB.
+Pueden ser relacionales o no relacionales.
+Las mas comunes son las relacionales y las Sql.
+
+Elementos que hay en una base de datos:
+
+TABLAS formadas por COLUMNAS, FILAS y CAMPOS
+
+Se compone por todas las tablas que quiera que tienen el formato de una tabla tradicional.
+Una tabla representa una entidad 'USUARIOS' (siempre en plural), cada fila representa un
+objeto de esa entidad y cada columna un atributo de esa entidad (ID, NOMBRE, APELLIDO, EMAIL, CONTRASEÑA)
+y cada elemento es un campo.
+
+FILA -> objeto de esa entidad
+COLUMNA -> atributo individual de esa entidad
+CAMPO -> elemento independiente de ese objeto
+
+Ejemplo:
+
+Nombre base de datos -> BLOG
+Tabla -> USUARIOS (entidad)
+Columnas:   ID     NOMBRE      APELLIDO     EMAIL         CONTRASEÑA
+FILA:       1   |  Lautaro  |  Alegria  |  l.a@aa.com  |  123456     |
+FILA:       2   |  Nestor   |  Alegria  |  n.a@aa.com  |  234567     |
+FILA:       3   |  Cecilia  |  Cabrera  |  c.a@aa.com  |  345678     |
