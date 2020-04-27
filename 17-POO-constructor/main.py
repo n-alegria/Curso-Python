@@ -1,4 +1,4 @@
-# Importo la clase Coche
+# Importo la clase Coche o puedo hacer 'import coche' pero debo usar notacion static 'coche.Coche'
 from coche import Coche
 
 carro = Coche("Amarillo", "Renault", "Clio", 150, 200, 4)
