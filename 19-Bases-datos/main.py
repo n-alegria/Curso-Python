@@ -107,7 +107,7 @@ print(coche)
 cursor.execute("UPDATE vehiculos SET modelo = 'Leo' WHERE marca = 'Opel' ")
 database.commit()
 
-
+print(cursor.rowcount, "Actualiados\n")
 
 cursor.close()
 database.close()
