@@ -10,7 +10,6 @@ Proyecto Python y Mysql
 # Desde el paquete 'usuarios' importar el modulo 'aciones.py'
 from usuarios import acciones
 
-
 print("""
 Acciones disponibles:
 
@@ -18,7 +17,7 @@ Acciones disponibles:
 2) Login
 """)
 
-# Creo un objeto del tipo 'Acciones'
+# Creo un objeto del tipo 'Acciones' que contendra '.registro' y '.login()'
 hazEl = acciones.Acciones()
 accion = int(input("¿Que quieres hacer?: "))
 
