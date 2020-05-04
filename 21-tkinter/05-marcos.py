@@ -2,7 +2,18 @@ from tkinter import *
 
 ventana = Tk()
 ventana.title("Master python")
-ventana.geometry("700x700")
+
+# Leo los tamaños de mi pantalla y paso los valores al '.geometry()' -> puedo poner la posicion inicial con los diguientes parametros
+# Tambien puedo pasar directamente las funciones al '.geometry()'
+width_value = ventana.winfo_screenwidth()
+height_value = ventana.winfo_screenheight()
+ventana.geometry("%dx%d+0+0" % (width_value, height_value))
+
+# Pantalla maximizada ->
+ventana.wm_state("zoomed")
+# ventana.attributes("-topmost", True)
+
+#ventana.geometry("700x700")
 
 # --> Para pegar el contenido al borde superior o inferior debo usar 'anchor=N o anchor=S'
 
