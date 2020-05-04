@@ -28,3 +28,6 @@ print(numero)
 print(decimal)
 
 print("-------------------------------")
+
+print("Con \'id()\' muestro la direccion de memoria donde se almacena la variable\n")
+print(f"La variable 'texto' se almacena en {id(texto)}")
